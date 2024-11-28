@@ -10,7 +10,7 @@ export default function NavbarAuth() {
    ) as ThemeContextInterface;
    return <div className="w-full flex fixed top-0 justify-between items-center px-36 z-50 bg-bgColor pt-6">
       <Link
-         to={"https://x.com/kurosaki22_ken"}
+         to={"https://x.com/imkeanserna"}
          target="_blank"
          className={`${darkTheme ? "text-gray-50" : "text-gray-900"} cursor-pointer text-lg font-light animate-pulse`}>From <span className="font-medium">Kurosaki....</span></Link>
       <div
