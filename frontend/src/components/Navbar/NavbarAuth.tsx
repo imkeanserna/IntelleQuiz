@@ -12,7 +12,7 @@ export default function NavbarAuth() {
       <Link
          to={"https://x.com/imkeanserna"}
          target="_blank"
-         className={`${darkTheme ? "text-gray-50" : "text-gray-900"} cursor-pointer text-lg font-light animate-pulse`}>From <span className="font-medium">Kurosaki....</span></Link>
+         className={`${darkTheme ? "text-gray-50" : "text-gray-900"} cursor-pointer text-lg font-light animate-pulse`}>From <span className="font-medium">@imkeanserna....</span></Link>
       <div
          onClick={toggleTheme}
          className={`flex justify-between cursor-pointer hover:drop-shadow-[-0.2rem_0_1rem_#f0f0f0] py-4 px-2 `}>
