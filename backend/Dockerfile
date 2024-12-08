@@ -8,6 +8,8 @@ RUN npm install --production && npm install -g typescript
 
 COPY . .
 
+RUN npm run build
+
 EXPOSE 3000
 
-CMD ["npm", "run", "dev:docker"]
+CMD ["npm", "start"]
